@@ -1,0 +1,25 @@
+{
+  "name": "webrtc-file-sharing",
+  "version": "1.0.0",
+  "description": "WebRTC P2P file sharing application",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "keywords": [
+    "webrtc",
+    "file-sharing",
+    "p2p"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "uuid": "^9.0.1",
+    "ws": "^8.15.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  }
+}
